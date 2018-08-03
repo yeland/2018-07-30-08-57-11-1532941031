@@ -12,14 +12,14 @@ module.exports = function main() {
   
   var str = arguments[0];
   var length = str.length;
-  var arr new Array();
+  var arr = new Array();
   for(var i=0;i<length;i++){
 	  arr[i] = parseInt(str.charAt(i));
   }
   
-  var toparr new Array();
-  var midarr new Array();
-  var botarr new Array();
+  var toparr = new Array();
+  var midarr = new Array();
+  var botarr = new Array();
   
   for(var i=0;i<length;i++){
 	  toparr[i] = toplcd[arr[i]];
