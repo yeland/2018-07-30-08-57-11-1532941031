@@ -13,7 +13,6 @@ module.exports = function main() {
   var str = arguments[0];
   var length = str.length;
   var arr;
-  arr.length = length;
   for(var i=0;i<length;i++){
 	  arr[i] = parseInt(str.charAt(i));
   }
