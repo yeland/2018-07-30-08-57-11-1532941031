@@ -32,9 +32,9 @@ module.exports = function main() {
   midarr[length-1].push('\n');
   botarr[length-1].push('\n');
   
-  toparr[length-1].join("");
-  midarr[length-1].join("");
-  botarr[length-1].join("");
+  toparr[length-1] = toparr[length-1].join("");
+  midarr[length-1] = midarr[length-1].join("");
+  botarr[length-1] = botarr[length-1].join("");
   
   console.log(toparr.join(" ")+midarr.join(" ")+botarr.join(" "));
   
