@@ -22,15 +22,15 @@ module.exports = function main() {
   var midarr;
   var botarr;
   
-  for(var i=0;i<length-1;i++){
+  for(var i=0;i<length;i++){
 	  toparr[i] = toplcd[arr[i]];
 	  midarr[i] = midlcd[arr[i]];
 	  botarr[i] = botlcd[arr[i]];
   }
   
-  toparr[length-1] = toplcd[arr[length-1]]+'\n';
-  midarr[length-1] = midlcd[arr[length-1]]+'\n';
-  botarr[length-1] = botlcd[arr[length-1]]+'\n';
+  toparr.push('\n');
+  midarr.push('\n');
+  botarr.push('\n');
   
   console.log(toparr.join(" ")+midarr.join(" ")+botarr.join(" "));
   
