@@ -32,8 +32,6 @@ module.exports = function main() {
   midarr[length] = '\n';
   botarr[length] = '\n';
   
-  console.log(toparr.join(" ")+ 
-  midarr.join(" ")+ 
-  botarr.join(" "));
+  console.log(toparr.join(" ")+midarr.join(" ")+botarr.join(" "));
   
 };
