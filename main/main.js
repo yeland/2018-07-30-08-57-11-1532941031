@@ -28,6 +28,6 @@ module.exports = function main() {
 	  botarr[i] = botlcd[arr[i]];
   }
   
-  console.log(toparr.join(" ")) + "\n" + midarr.join(" ") + "\n" + botarr.join(" ");
+  console.log(toparr.join(" ")) + "\n" + midarr.join(" ") + "\n" + botarr.join(" ") + "\n";
   
 };
