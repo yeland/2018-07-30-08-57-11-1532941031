@@ -28,9 +28,9 @@ module.exports = function main() {
 	  botarr[i] = botlcd[arr[i]];
   }
   
-  toparr[length-1].push('\n');
-  midarr[length-1].push('\n');
-  botarr[length-1].push('\n');
+  toparr[length-1].push("\n");
+  midarr[length-1].push("\n");
+  botarr[length-1].push("\n");
   
   toparr[length-1] = toparr[length-1].join("");
   midarr[length-1] = midarr[length-1].join("");
