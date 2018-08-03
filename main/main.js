@@ -12,14 +12,14 @@ module.exports = function main() {
   
   var str = arguments[0];
   var length = str.length;
-  var arr;
+  var arr new Array();
   for(var i=0;i<length;i++){
 	  arr[i] = parseInt(str.charAt(i));
   }
   
-  var toparr;
-  var midarr;
-  var botarr;
+  var toparr new Array();
+  var midarr new Array();
+  var botarr new Array();
   
   for(var i=0;i<length;i++){
 	  toparr[i] = toplcd[arr[i]];
@@ -27,13 +27,9 @@ module.exports = function main() {
 	  botarr[i] = botlcd[arr[i]];
   }
   
-  toparr[length-1].push("\n");
-  midarr[length-1].push("\n");
-  botarr[length-1].push("\n");
-  
-  toparr[length-1] = toparr[length-1].join("");
-  midarr[length-1] = midarr[length-1].join("");
-  botarr[length-1] = botarr[length-1].join("");
+  toparr.push("\n");
+  midarr.push("\n");
+  botarr.push("\n");
   
   console.log(toparr.join(" ")+midarr.join(" ")+botarr.join(" "));
   
