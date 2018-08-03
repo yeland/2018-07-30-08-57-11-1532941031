@@ -28,10 +28,14 @@ module.exports = function main() {
 	  botarr[i] = botlcd[arr[i]];
   }
   
+  toparr[length] = '\n';
+  midarr[length] = '\n';
+  botarr[length] = '\n';
+  
   arr
   
-  console.log(toparr.join(" ")+"\n"+ 
-  midarr.join(" ")+"\n"+ 
-  botarr.join(" ")+"\n");
+  console.log(toparr.join(" ")+ 
+  midarr.join(" ")+ 
+  botarr.join(" "));
   
 };
